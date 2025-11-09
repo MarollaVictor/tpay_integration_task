@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpay_integration_task", "tpay_integration_task.csproj", "{EAFAAE1F-05AC-62CF-DA94-B79AE78207E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAFAAE1F-05AC-62CF-DA94-B79AE78207E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFAAE1F-05AC-62CF-DA94-B79AE78207E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFAAE1F-05AC-62CF-DA94-B79AE78207E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFAAE1F-05AC-62CF-DA94-B79AE78207E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85E28E4D-33D1-41CB-888E-8A3156E5B4A9}
+	EndGlobalSection
+EndGlobal

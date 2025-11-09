@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "TPAY Integration Task";
+}
+
+<div class="container text-center mt-5">
+    <h1 class="mb-4">TPAY Subscription Demo</h1>
+
+    <p>Enter your mobile number and choose your operator to start subscription:</p>
+
+    <form id="subscribeForm" class="mt-3">
+        <input type="text" id="msisdn" class="form-control mb-2" placeholder="Enter mobile number" required />
+        <select id="operator" class="form-control mb-3">
+            <option value="">-- Select Operator --</option>
+            <option value="60201">Orange</option>
+            <option value="60202">Vodafone</option>
+        </select>
+        <button type="button" id="subscribeBtn" class="btn btn-primary w-50">Subscribe</button>
+    </form>
+
+    <div id="message" class="mt-4 text-success fw-bold"></div>
+</div>
+
+<!-- TPAY JavaScript Library -->
+<script src="http://lookup.tpay.me/idxml.ashx/v2/js?date=2025-11-09T12:00:00Z&lang=en&digest=YOUR_DIGEST_HERE"></script>
+
+<!-- Link to the site.js file -->
+
+<script src="~/js/site.js"></script>
+
+
+
+
+

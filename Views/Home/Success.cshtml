@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Subscription Successful";
+}
+<div class="container text-center mt-5">
+    <h1 class="mb-4 text-success">Subscription Successful!</h1>
+    <p class="fw-bold">Thank you for subscribing. You will receive a confirmation SMS shortly.</p>
+
+// 5. Send congratulatory SMS via backend API
+
+async function sendFreeMT(msisdn) {
+    const message = " 🎉Congratulations! Your TPAY subscription was successful.";
+
+    const response = await fetch("/api/tpay/sendFreeMT", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ msisdn: msisdn, message: message })
+    });
+
+    const data = await response.json();
+    console.log("Free MT Response:", data);
+}
+@{
+    ViewData["Title"] = "Subscription Successful";
+}
