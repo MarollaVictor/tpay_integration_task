@@ -94,3 +94,4 @@ C:\Users\Owner\.vscode\.netprogramming\tpay_integration_task\obj\Debug\net9.0\re
 C:\Users\Owner\.vscode\.netprogramming\tpay_integration_task\obj\Debug\net9.0\tpay_integration_task.pdb
 C:\Users\Owner\.vscode\.netprogramming\tpay_integration_task\obj\Debug\net9.0\tpay_integration_task.genruntimeconfig.cache
 C:\Users\Owner\.vscode\.netprogramming\tpay_integration_task\obj\Debug\net9.0\ref\tpay_integration_task.dll
+C:\Users\Owner\.vscode\.netprogramming\tpay_integration_task\obj\Debug\net9.0\tpay_integration_task.sourcelink.json
