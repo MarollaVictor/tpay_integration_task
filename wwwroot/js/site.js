@@ -270,8 +270,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 initCheckout(msisdn, operator);
                 setTimeout(() => {
                     confirmCheckout(msisdn, operator);
-                }, 500);
-            }, 300);
+                }, 1500);
+            }, 500);
         });
     }
 });

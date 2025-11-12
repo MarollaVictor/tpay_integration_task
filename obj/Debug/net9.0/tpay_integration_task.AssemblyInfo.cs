@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tpay_integration_task")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e58388e4e7bf9cd3f1da5451c1ba2ad9764a7ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eda0ca2762581e1629d6d3167f09c777bd33ad1b")]
 [assembly: System.Reflection.AssemblyProductAttribute("tpay_integration_task")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tpay_integration_task")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
